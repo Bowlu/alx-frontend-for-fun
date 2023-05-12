@@ -7,7 +7,13 @@
 @for $i from 1 through 4 {
 	.col-#{$i} {
 		@if $i == 1 {
-		       @include widths(100%);
-	       } @else if $i == 2 {
-			@include widths(50%);
-		}	:	
+			@include widths(100%);
+		} @else if $i == 2 {
+				@include widths(50%);
+		} @else if $i == 3 {
+				@include widths(33.3333333333%);
+		} @else {
+				@include widths(25%);
+		}
+	}
+}
