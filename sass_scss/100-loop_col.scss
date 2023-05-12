@@ -1,0 +1,13 @@
+/* columns and operators */
+
+@mixin widths($value) {
+	width: $value;
+}
+
+@for $i from 1 through 4 {
+	.col-#{$i} {
+		@if $i == 1 {
+		       @include widths(100%);
+	       } @else if $i == 2 {
+			@include widths(50%);
+		}	:	
