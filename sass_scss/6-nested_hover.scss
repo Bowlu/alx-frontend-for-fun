@@ -1,9 +1,0 @@
-/* nested hover */
-$colorB: #FF0000;
-$colorH: #00FF00;
-button {
-	color: $colorB;
-	&:hover {
-		color: $colorH;
-	}
-}
