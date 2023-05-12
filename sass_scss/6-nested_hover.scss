@@ -1,7 +1,9 @@
 /* nesed hover */
+$colorB: #FF0000;
+$colorH: #00FF00;
 button {
-	color: #FF0000;
+	color: $colorB;
 	&:hover {
-		color: #00FF00;
+		color $colorH;
 	}
 }
