@@ -1,0 +1,32 @@
+.container {
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container .box {
+  width: 90px;
+  height: 60px;
+}
+
+.box1 {
+  background-color: green;
+}
+
+.box2 {
+  background-color: blue;
+}
+
+.box3 {
+  background-color: grey;
+  z-index: 5;
+}
+
+.box4 {
+  background-color: purple;
+}
+
+.box5 {
+  background-color: orange;
+}
